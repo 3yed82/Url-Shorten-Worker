@@ -11,7 +11,7 @@ const html404 = `<!DOCTYPE html>
 <body>
   <h1>404 Not Found.</h1>
   <p>The url you visit is not found.</p>
-  <a href="https://github.com/3yed-61/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a>
+  <a href="https://i.3yed.online/" target="_self">Visit my website</a>
 </body>`
 
 let response_header={

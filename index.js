@@ -171,7 +171,7 @@ async function handleRequest(request) {
   if (location) {
     if (config.safe_browsing_api_key){
       if(!(await is_url_safe(location))){
-        let warning_page = await fetch("https://xytom.github.io/Url-Shorten-Worker/safe-browsing.html")
+        let warning_page = await fetch("https://github.com/3yed-61/Url-Shorten-Worker/blob/main/safe-browsing.html")
         warning_page =await warning_page.text()
         warning_page = warning_page.replace(/{Replace}/gm, location)
         return new Response(warning_page, {
